@@ -24,7 +24,7 @@ function contar() {
         gif.src = 'img/dogpraia.jpg'
 
         if (days <= -0) {          
-          res.innerHTML = 'hmmm...já está de férias?'     
+          res.innerHTML = 'hmm...já está de férias?'     
           document.body.style.background = '#224656' //muda a cor
           gif.src = 'img/carminhase.png'
 
