@@ -18,7 +18,7 @@ function contar() {
         //subtrai data      
         var diff = (datainformadasaida.getTime() - datahoje.getTime());           
         //converter os milisegundos em dias
-        var days = Math.ceil(diff / (1000 * 60 * 60 * 24)); 
+        var days = Math.ceil(diff / (1000 * 60 * 60 * 24)+1); 
         
         res.innerHTML = `Faltam ${days} dias para as suas férias!` 
         gif.src = 'img/dogpraia.jpg'
