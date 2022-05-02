@@ -7,7 +7,7 @@ function contar() {
 
     // se valor for 0 em algum dos campos retorna o erro:
     if (datainformada.value.length == 0 | days <= -1) {
-      window.alert('[ERRO] Informe uma data!')
+      window.alert('[ERRO] Informe uma data válida!')
       res.innerHTML = 'Impossivel contar!'     
       document.body.style.background = '#224656' //muda a cor
       gif.src = 'img/carminha3.jpg'
