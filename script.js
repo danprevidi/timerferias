@@ -23,11 +23,10 @@ function contar() {
         res.innerHTML = `Faltam ${days} dias para as suas férias!` 
         gif.src = 'img/dogpraia.jpg'
 
-        if (days <= -0) {
-          window.alert('[ERRO] Informe uma data!')
-          res.innerHTML = 'Impossivel contar!'     
+        if (days <= -0) {          
+          res.innerHTML = 'hmmm...já está de férias?'     
           document.body.style.background = '#224656' //muda a cor
-          gif.src = 'img/carminha3.jpg'
+          gif.src = 'img/carminhase.png'
 
          }
 
