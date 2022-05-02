@@ -20,7 +20,7 @@ function contar() {
         //converter os milisegundos em dias
         var days = Math.ceil(diff / (1000 * 60 * 60 * 24)+1); 
         
-        res.innerHTML = `Faltam ${days} dias para as suas férias!` 
+        res.innerHTML = `Faltam ${days} dia(s) para as suas férias!` 
         gif.src = 'img/dogpraia.jpg'
 
         if (days <= -0) {          
